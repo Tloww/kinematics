@@ -33,7 +33,7 @@ y = L1 \sin(q_1) + L2 \sin(q1 + q2) + L3 \sin(q1 + q2 + q3)
 ---
 
 
-![THE SOULUTION]]("https://github.com/Tloww/kinematics/blob/0833861624aa9dff270e6e7c517255e5cd238d5a/mech_task.jpg")
+![Solution](https://raw.githubusercontent.com/Tloww/kinematics/main/mech_task.jpg)
 
 ##  Result
 After substituting the values:
