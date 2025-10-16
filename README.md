@@ -8,14 +8,14 @@ The goal was to calculate the **end-effector position (x, y)** based on given jo
 
 ## Parameters
 - **Link lengths**:  
-  - \(l_1 = 15\ \text{cm}\)  
-  - \(l_2 = 10\ \text{cm}\)  
-  - \(l_3 = 4\ \text{cm}\)  
+  - \(L1 = 15)  
+  - \(L2 = 10)  
+  - \(L3 = 4)  
 
   **Assumed joint angles**:  
-  - \(q_1 = 0^\circ\)  
-  - \(q_2 = 45^\circ\)  
-  - \(q_3 = -20^\circ\)  
+  - \(q1 = 0)  
+  - \(q2 = 45)  
+  - \(q3 = -20)  
 
 
 
@@ -23,11 +23,11 @@ The goal was to calculate the **end-effector position (x, y)** based on given jo
 The forward kinematics equations for a 2D 3-link arm:
 
 \[
-x = l_1 \cos(q_1) + l_2 \cos(q_1 + q_2) + l_3 \cos(q_1 + q_2 + q_3)
+x = L1 \cos(q1) + L2 \cos(q1 + q2) + L3 \cos(q_1 + q2 + q3)
 \]
 
 \[
-y = l_1 \sin(q_1) + l_2 \sin(q_1 + q_2) + l_3 \sin(q_1 + q_2 + q_3)
+y = L1 \sin(q_1) + L2 \sin(q1 + q2) + L3 \sin(q1 + q2 + q3)
 \]
 
 ---
@@ -35,11 +35,8 @@ y = l_1 \sin(q_1) + l_2 \sin(q_1 + q_2) + l_3 \sin(q_1 + q_2 + q_3)
 ## 📷 Robot Arm Illustration
 Below is the schematic of the robotic arm with link lengths and joint angles:
 
-![Robot Arm]("C:\Users\HUAWEI\Downloads\mech_task.jpg")
+![Robot Arm]("mech_task")
 
-*(Make sure to save your diagram as `arm-diagram.png` in the same GitHub repo so it displays correctly.)*
-
----
 
 ##  Result
 After substituting the values:
@@ -51,6 +48,3 @@ After substituting the values:
 So, the **end-effector position** of the robotic arm is approximately **25.7 cm in X** and **8.7 cm in Y**.
 
 ---
-
-## 🌸 Note
-This solution was simplified to **2D forward kinematics** only, as requested, without including the base height or Z-axis.
