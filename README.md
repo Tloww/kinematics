@@ -32,10 +32,8 @@ y = L1 \sin(q_1) + L2 \sin(q1 + q2) + L3 \sin(q1 + q2 + q3)
 
 ---
 
-## 📷 Robot Arm Illustration
-Below is the schematic of the robotic arm with link lengths and joint angles:
 
-![Robot Arm]("mech_task")
+![Robot Arm](""mech_task.jpg)
 
 
 ##  Result
