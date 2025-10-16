@@ -33,8 +33,7 @@ y = L1 \sin(q_1) + L2 \sin(q1 + q2) + L3 \sin(q1 + q2 + q3)
 ---
 
 
-("mech_task.jpg")
-
+![THE SOULUTION]](images/mech_task.jpg)
 
 ##  Result
 After substituting the values:
